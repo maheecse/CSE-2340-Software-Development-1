@@ -1,57 +1,101 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Basics - University Campus</title>
-  </head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 3;
+            background-color: #f4f6f8;
+            color: #000000;
+        }
 
-  <body>
+        .header {
+            background-color: #02304e;
+            color: rgb(245, 239, 239);
+            padding: 20px;
+            text-align: center;
+        }
+
+        #main-title {
+            font-size: 38px;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #f3cccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+
+        nav a {
+            color: #17324d;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+
+        main {
+            width: 80%;
+            max-width: 1500px;
+            margin: 30px auto;
+        }
+        
+    </style>
+</head>
+
+<body>
     <header class="header">
-      <h1 id="main-title">University Campus</h1>
-      <p>WELCOME TO OUR UNIVERSITY</p>
+        <h1 id="main-title">University Campus</h1>
+        <p>WELCOME TO OUR UNIVERSITY</p>
     </header>
     <nav aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#facilities">Facilities</a>
-      <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact</a>
     </nav>
     <main>
-      <section id="about">
-        <h2>About Our University</h2>
-        <img class="campus-image" src="iiuc1.jpg" alt="University Campus" />
-        <p class="description">
-          Our university is a place of learning, growth, and innovation. We
-          offer a wide range of programs and activities to help students achieve
-          their academic and personal goals.
-        </p>
-        <a href="#facilities" class="button">Explore Facilities</a>
-      </section>
+        <section id="about">
+            <h2>About Our University</h2>
+            <img class="campus-image" src="iiuc2.jpg" alt="University Campus" />
+            <p class="description">
+                Our university is a place of learning, growth, and innovation. We
+                offer a wide range of programs and activities to help students achieve
+                their academic and personal goals.
+            </p>
+            <a href="#facilities" class="button">Explore Facilities</a>
+        </section>
 
-      <section id="facilities" class="card">
-        <h2>Campus Facilities</h2>
+        <section id="facilities" class="card">
+            <h2>Campus Facilities</h2>
 
-        <ul>
-          <li>Computer Laboratories</li>
-          <li>Central Library</li>
-          <li>Research Center</li>
-          <li>Student Lounge</li>
-        </ul>
-      </section>
-      <section class="card">
-        <h2>Contact Us</h2>
-        <div class="box-demo">This is the content area.</div>
-      </section>
-      <section id="contact" class="card"> 
-        <h2>Search Campus</h2>
-        <lebel for="search">Search:</label>
-        <input 
-        id="search"
-        name="search"
-        type="search"
-        placeholder="Search campus facilities">
-        <button type="button" class="button">Search</button>
-      </section>
+            <ul>
+                <li>Computer Laboratories</li>
+                <li>Central Library</li>
+                <li>Research Center</li>
+                <li>Student Lounge</li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Contact Us</h2>
+            <div class="box-demo">This is the content area.</div>
+        </section>
+        <section id="contact" class="card">
+            <h2>Search Campus</h2>
+            <lebel for="search">Search:</label>
+                <input id="search" name="search" type="search" placeholder="Search campus facilities">
+                <button type="button" class="button">Search</button>
+        </section>
     </main>
-  </body>
+</body>
+
 </html>
