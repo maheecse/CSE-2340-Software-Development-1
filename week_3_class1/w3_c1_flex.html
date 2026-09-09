@@ -4,6 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flex Basics</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #eef2f7;
+        color: #1f2937;
+      }
+      .header {
+        background-color: #102a43;
+        color: #e8eaf6;
+        padding: 36px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .card {
+        background-color: #ffffff;
+        border-radius: 14px;
+        box-shadow: 0 4px 10px rgba(16, 42, 67, 0.12);
+        padding: 45px;
+        margin: 20px;
+        text-align: center;
+      }
+      nav a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+        color: #b9dcf5;
+      }
+      nav {
+        display: flex;
+        gap: 35px;
+      }
+      #main-title {
+        font-size: 42px;
+      }
+      .card h2 {
+        font-size: 28px;
+      }
+      .card p {
+        font-size: 17px;
+      }
+      main {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+      }
+    </style>
   </head>
 
   <body>
