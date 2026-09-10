@@ -1,0 +1,186 @@
+/* Base Page & Background Gradient (Soft Purple Theme) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: radial-gradient(circle at 20% 30%, #d8cdff 0%, #e9e4ff 40%, #f8f6ff 80%);
+  background-attachment: fixed;
+  color: #5b5675;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(91, 49, 244, 0.08);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #120e36;
+}
+
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #120e36;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #5b31f4;
+  text-decoration: underline;
+}
+
+
+main {
+  width: 85%;
+  max-width: 900px;
+  margin: 35px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.card {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 35px;
+  margin-bottom: 30px;
+  border: 1px solid #e2d9f8;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 8px 20px rgba(91, 49, 244, 0.06);
+  text-align: center;
+}
+
+#main-title {
+  font-size: 42px;
+  color: #120e36;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  color: #120e36;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #5b5675;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;  
+  border-radius: 50%;
+  border: 2px solid #9270ff;
+}
+
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.skill-box {
+  background-color: #f1edff;
+  color: #5b31f4;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid #e2d9f8;
+  
+}
+
+
+.project-item {
+  background-color: #fcfbff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: 1px solid #e2d9f8;
+  text-align: left;
+}
+
+.project-item h3 {
+  color: #5b31f4;
+  margin-top: 0;
+  margin-bottom: 8px;
+  
+}
+
+
+.button {
+  display: inline-block;
+  background-color: #5b31f4;
+  color: #ffffff;
+  padding: 12px 28px;
+  margin-top: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+#contact input,
+#contact textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color:  #fcfbff;
+}
+
+#contact textarea {
+    resize: none;
+}
+
+#contact button {
+    padding: 8px;
+    background-color: #5b31f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover {
+  background-color: #4a23d6;
+}
+
+.button:focus {
+  outline: 3px solid #120e36;
+  outline-offset: 3px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #5b5675;
+  font-size: 14px;
+}

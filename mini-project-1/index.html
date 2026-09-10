@@ -19,7 +19,7 @@
       </nav>
     </header>
     <main>
-      <div id="about" class="" card>
+      <div id="about" class="card">
         <img
           src="images/profile.jpg"
           alt="Shahriar Ibne Alam Mahee"
@@ -34,7 +34,7 @@
         </p>
       </div>
       <!--  skill add -->
-      <div class="skills" class="card">
+      <div id="skills" class="card">
         <h2>My Skills</h2>
         <div class="skills-container">
           <span class="skill-box">C/C++</span>
@@ -67,25 +67,46 @@
           </p>
         </div>
       </div>
-
       <!--  contact add -->
 
       <div id="contact" class="card">
         <h2>Contact Me</h2>
+        <div class="project-item">
+          <p class="description">
+            Feel free to reach out for collaborations or project queries!
+          </p>
+        </div>
 
-        <p class="description">
-          Feel free to reach out for collaborations or project queries!
-        </p>
+        <form>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
 
-        <a href="mailto:maheecse2030@gmail.com" class="button"> Send Email </a>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
 
-        <a
-          href="https://www.linkedin.com/in/shahriar-ibne-alam-mahee-1754963a6"
-          target="_blank"
-          class="button"
-        >
-          LinkedIn
-        </a>
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="3"
+            placeholder="Write your message"
+            required
+          ></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </main>
     <footer>
