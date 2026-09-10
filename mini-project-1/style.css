@@ -1,6 +1,6 @@
 /* Base Page & Background Gradient (Soft Purple Theme) */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Urbanist, sans-serif ;
   margin: 0;
   background: radial-gradient(circle at 20% 30%, #d8cdff 0%, #e9e4ff 40%, #f8f6ff 80%);
   background-attachment: fixed;
