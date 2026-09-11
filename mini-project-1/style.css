@@ -147,14 +147,17 @@ main {
   margin-top: 15px;
   text-align: left;
 }
-
+#contact label {
+    font-weight: bold;
+    color: #120e36;
+}
 #contact input,
 #contact textarea {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 14px;
-  font-family:  sans-serif;
+  font-family: inherit;
   background-color: #fcfbff;
 }
 
