@@ -1,9 +1,9 @@
 /* Base Page & Background Gradient (Soft Purple Theme) */
 body {
-  font-family: Urbanist, sans-serif ;
+  font-family: Urbanist;
   margin: 0;
   background: radial-gradient(circle at 20% 30%, #d8cdff 0%, #e9e4ff 40%, #f8f6ff 80%);
-  background-attachment: fixed;
+ /*  background-attachment: fixed; */
   color: #5b5675;
 }
 
@@ -18,9 +18,9 @@ body {
 }
 
 .logo {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
-  color: #120e36;
+  color: #130f36;
 }
 
 
@@ -50,7 +50,6 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 
 .card {
   background-color: #ffffff;
@@ -169,7 +168,7 @@ main {
     border-radius: 5px;
     cursor: pointer;
 }
-.button:hover {
+#contact button:hover {
   background-color: #4a23d6;
 }
 
