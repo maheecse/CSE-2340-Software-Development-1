@@ -3,7 +3,7 @@ body {
   font-family: Urbanist;
   margin: 0;
   background: radial-gradient(circle at 20% 30%, #d8cdff 0%, #e9e4ff 40%, #f8f6ff 80%);
- /*  background-attachment: fixed; */
+  /*  background-attachment: fixed; */
   color: #5b5675;
 }
 
@@ -86,7 +86,7 @@ main {
 .profile-image {
   width: 150px;
   height: 150px;
-  object-fit: cover;  
+  object-fit: cover;
   border-radius: 50%;
   border: 2px solid #9270ff;
 }
@@ -107,7 +107,7 @@ main {
   font-weight: bold;
   font-size: 15px;
   border: 1px solid #e2d9f8;
-  
+
 }
 
 
@@ -124,7 +124,7 @@ main {
   color: #5b31f4;
   margin-top: 0;
   margin-bottom: 8px;
-  
+
 }
 
 
@@ -139,35 +139,38 @@ main {
   font-size: 16px;
   font-weight: bold;
 }
+
 #contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 15px;
+  text-align: left;
 }
 
 #contact input,
 #contact textarea {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    background-color:  #fcfbff;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  background-color: #fcfbff;
 }
 
 #contact textarea {
-    resize: none;
+  resize: none;
 }
 
 #contact button {
-    padding: 8px;
-    background-color: #5b31f4;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 8px;
+  background-color: #5b31f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
 #contact button:hover {
   background-color: #4a23d6;
 }
