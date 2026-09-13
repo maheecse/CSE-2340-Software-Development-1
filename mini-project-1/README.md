@@ -1,60 +1,53 @@
 # Personal Profile Website
 
-A simple and responsive personal profile website built with **HTML5 and CSS3** to showcase my skills, projects, and contact information.
+A simple and responsive personal profile website built with **HTML5 and CSS3** to showcase my profile, skills, projects, and contact information.
 
 ## Live Demo
 
-🔗 **https://cse-2340-software-development-1-oir5-qt32yatug-maheecse.vercel.app/**
-
-> Replace `YOUR-LIVE-LINK-HERE` with your GitHub Pages / Vercel / Netlify live URL.
+🔗 **[View Live Website](https://cse-2340-software-development-1-oir5-qt32yatug-maheecse.vercel.app/)**
 
 ## Features
 
-* Personal introduction and profile image
-* Skills section
-* Projects showcase with GitHub links
-* LinkedIn profile link
+* Personal profile and introduction
+* Skills showcase
+* Project section with GitHub links
+* LinkedIn profile
 * Contact form
 * Responsive layout
-* Clean purple-themed UI
-* Hover effects and simple animations
+* Clean and minimal UI
+* Purple-themed design
+* Hover effects
 
-## Technologies Used
+## Technologies
 
-* **HTML5**
-* **CSS3**
-* **Flexbox**
-* **Responsive Design**
-
-## Sections
-
-```text
-About
-Skills
-Projects
-Contact
-Footer
-```
+* HTML5
+* CSS3
+* Flexbox
+* Responsive Design
 
 ## Project Structure
 
 ```text
 Personal-Profile/
-│
 ├── index.html
 ├── style.css
 └── images/
     └── profile.jpg
 ```
 
-## Projects Included
+## Sections
 
-### Attendance Tracking System
+* **About** — Personal introduction and profile
+* **Skills** — Technical skills
+* **Projects** — Featured academic projects
+* **Contact** — LinkedIn and contact form
 
-A C++ based system for managing student attendance records.
+## Projects
 
-### Online Shopping Management System
+**Attendance Tracking System**
+A C++ based project for managing student attendance records.
 
+**Online Shopping Management System**
 An object-oriented C++ project for managing products and shopping operations.
 
 ## Author
@@ -62,79 +55,8 @@ An object-oriented C++ project for managing products and shopping operations.
 **Shahriar Ibne Alam Mahee**
 CSE Student — International Islamic University Chittagong (IIUC)
 
-* **GitHub:** [@maheecse](https://github.com/maheecse)
-* **LinkedIn:** [Shahriar Ibne Alam Mahee](YOUR-LINKEDIN-LINK)
+**GitHub:** [@maheecse](https://github.com/maheecse)
 
 ---
 
-⭐ If you like this project, feel free to explore the repository.
-# Personal Profile Website
-
-A simple and responsive personal profile website built with **HTML5 and CSS3** to showcase my skills, projects, and contact information.
-
-## Live Demo
-
-🔗 **[View Live Website](YOUR-LIVE-LINK-HERE)**
-
-> Replace `YOUR-LIVE-LINK-HERE` with your GitHub Pages / Vercel / Netlify live URL.
-
-## Features
-
-* Personal introduction and profile image
-* Skills section
-* Projects showcase with GitHub links
-* LinkedIn profile link
-* Contact form
-* Responsive layout
-* Clean purple-themed UI
-* Hover effects and simple animations
-
-## Technologies Used
-
-* **HTML5**
-* **CSS3**
-* **Flexbox**
-* **Responsive Design**
-
-## Sections
-
-```text
-About
-Skills
-Projects
-Contact
-Footer
-```
-
-## Project Structure
-
-```text
-Personal-Profile/
-│
-├── index.html
-├── style.css
-└── images/
-    └── profile.jpg
-```
-
-## Projects Included
-
-### Attendance Tracking System
-
-A C++ based system for managing student attendance records.
-
-### Online Shopping Management System
-
-An object-oriented C++ project for managing products and shopping operations.
-
-## Author
-
-**Shahriar Ibne Alam Mahee**
-CSE Student — International Islamic University Chittagong (IIUC)
-
-* **GitHub:** [@maheecse](https://github.com/maheecse)
-* **LinkedIn:** [Shahriar Ibne Alam Mahee](YOUR-LINKEDIN-LINK)
-
----
-
-⭐ If you like this project, feel free to explore the repository.
+⭐ **Thanks for visiting my project!**
