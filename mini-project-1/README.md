@@ -4,7 +4,7 @@ A simple and responsive personal profile website built with **HTML5 and CSS3** t
 
 ## Live Demo
 
-🔗 **[View Live Website]([YOUR-LIVE-LINK-HERE](https://cse-2340-software-development-1-oir5-qt32yatug-maheecse.vercel.app/))**
+🔗 **https://cse-2340-software-development-1-oir5-qt32yatug-maheecse.vercel.app/**
 
 > Replace `YOUR-LIVE-LINK-HERE` with your GitHub Pages / Vercel / Netlify live URL.
 
