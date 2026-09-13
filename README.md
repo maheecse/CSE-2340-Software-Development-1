@@ -4,7 +4,7 @@ This repository contains my **Software Development-1 (CSE-2340)** course works, 
 
 ## Live Project
 
-🔗 **[View Portfolio Live](https://cse-2340-software-development-1-oir5-qt32yatug-maheecse.vercel.app/)**
+🔗 **https://cse-2340-software-development-1-oir.vercel.app/**
 
 ## Repository Contents
 
